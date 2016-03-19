@@ -28,7 +28,7 @@
     <br/>
     <code id = "message" style = "visibility: hidden"></code>
     <br/>
-
+    <audio id = "music" src='music/song.mp3'>gg</audio>
   </body>
   <script>
     
@@ -83,12 +83,7 @@
     // message
     var soundEmbed = null;
     timer = setTimeout(function() {
-      soundEmbed = document.createElement("embed");
-      soundEmbed.setAttribute("src", "music/song.mid");
-      soundEmbed.setAttribute("hidden", true);
-      soundEmbed.setAttribute("autostart", true);
-      soundEmbed.removed = false;
-      document.body.appendChild(soundEmbed);
+      document.getElementById('music').play();
     }, 13000);
 
   </script>
