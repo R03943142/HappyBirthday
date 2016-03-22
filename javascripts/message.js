@@ -62,8 +62,8 @@ function MessageBox()
 
 	_obj.saySomethingSecond = function(m) {
 		var originM = m.replace('▋','') + '\n';
-		var sentence = 'We also talk the story about Little Prince. When will the story be ended xD ?' + '\n' 
-		+ 'Please keep your smile not only today but everyday!! It\'s very beautiful thing.' + '\n' 
+		var sentence = 'We also talked the story about Little Prince. When will the story be ended xD ?' + '\n' 
+		+ 'Please keep your smile not only today but everyday!! It\'s a very beautiful thing.' + '\n' 
 		+ 'Anyway, all I want to say is ...';
 		var appear;
 		_countM = 0;
@@ -81,6 +81,6 @@ function MessageBox()
 		}
 		timer = setTimeout(function() {
             _welcomeBox.innerText = appear.replace('▋','');
-          }, 9700);
+          }, 9850);
 	}
 };
